@@ -21,6 +21,14 @@ public class Robbery {
 		int[] sizes,
 		int[] worths
 	) {
+		if(capacity == 0 || sizes.length == 0 || worths.length ==0) return 0;
+
+		for(int x = 0; x< sizes.length; x++){
+			
+			for(int j = 0; j< worths.length; j++){
+
+			}
+		}
 		// fill in here, change the return
 		return 0;
 	}
